@@ -1,4 +1,4 @@
-# Potato leaf disease detection robot
+# Disease Detection Robot (DDR)
 
 ## Description
 
