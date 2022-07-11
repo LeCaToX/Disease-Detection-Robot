@@ -1,4 +1,4 @@
-# Disease Detection Robot (DDR)
+# Plant Disease Detection Robot (PDDR)
 
 ## Description
 
