@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a project made by <a href="https://github.com/LeCaToX">LeCaToX<a> and <a href="https://github.com/alexeipc">alexeipc<a> to create a planting system with the ability to detect and remove diseased potatoes.
+This is a project made by [Lê Cảnh Toàn](https://github.com/LeCaToX), [Phạm Hồ Mạnh Tú](https://github.com/StewAway) and [Đặng Thành Phát](https://github.com/alexeipc) to create a planting system with the ability to detect and remove diseased potatoes.
 
 ## Set up
 
