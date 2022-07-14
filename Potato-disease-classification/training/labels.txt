@@ -1,0 +1,2 @@
+0 Bacterial_spot
+1 Healthy
