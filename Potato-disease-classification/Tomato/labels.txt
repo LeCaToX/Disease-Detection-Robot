@@ -1,0 +1,10 @@
+0 Target spot
+1 Mosaic virus
+2 YellowLeaf Curl Virus
+3 Bacterial spot
+4 Early blight
+5 Healthy
+6 Late blight
+7 Leaf Mold
+8 Septoria leaf spot
+9 Spider mites Two potted spider mite

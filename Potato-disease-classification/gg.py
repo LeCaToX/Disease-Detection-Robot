@@ -3,16 +3,23 @@ from PIL import Image, ImageOps
 import numpy as np
 import requests
 
-# Load the model
-model = load_model('keras_model.h5')
+# Init
+PLANT_LIST = ["Tomato","Pepper"]
 
-# Create the array of the right shape to feed into the keras model
-# The 'length' or number of images you can put into the array is
-# determined by the first position in the shape tuple, in this case 1.
+model = {}
+
+# Load model
+for i in range(len(PLANT_LIST)):
+    plant_name = PLANT_LIST[i]
+    
+    path = plant_name + '/keras_model.h5'
+    model[i] = load_model(path)
+
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 while True:
-    url = input("Image's URL: ")
+    plant_id = int(input("Enter plant's id (0. Tomato, 1. Pepper): "))
+    url = input("Enter image's URL: ")
 
     # Replace this with the path to your image
     image = Image.open(requests.get(url, stream=True).raw)
@@ -29,5 +36,5 @@ while True:
     data[0] = normalized_image_array
 
     # run the inference
-    prediction = model.predict(data)
+    prediction = model[plant_id].predict(data)
     print(prediction)
