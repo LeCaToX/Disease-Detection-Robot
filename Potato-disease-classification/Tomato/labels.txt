@@ -1,10 +1,10 @@
-0 Target spot
-1 Mosaic virus
-2 YellowLeaf Curl Virus
-3 Bacterial spot
-4 Early blight
-5 Healthy
-6 Late blight
-7 Leaf Mold
-8 Septoria leaf spot
-9 Spider mites Two potted spider mite
+0 Tomato__Target_Spot
+1 Tomato__Tomato_mosaic_virus
+2 Tomato__Tomato_YellowLeaf__Curl_Virus
+3 Tomato_Bacterial_spot
+4 Tomato_Early_blight
+5 Tomato_healthy
+6 Tomato_Late_blight
+7 Tomato_Leaf_Mold
+8 Tomato_Septoria_leaf_spot
+9 Tomato_Spider_mites_Two_spotted_spider_mite
